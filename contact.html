@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Contact Mandi Junior High School and submit a student enquiry or registration request.">
+
+    <meta name="keywords"
+          content="Mandi Junior High School contact, student registration, PNG school">
+
+    <meta name="author"
+          content="Mandi Junior High School">
+
+    <title>Contact & Registration | Mandi Junior High School</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+
+                <div class="banner-logo-container float-right">
+                    <img id="top-brand-logo-right" src="images/school-logo.jpg" 
+                    alt="Department of Education Logo" class="banner-logo" width="100" height="100" 
+                    style="float: left; max-width: 100px;">
+                </div>  
+
+
+
+        <div class="banner-logo-container float-right">
+                    <img id="top-brand-logo-right" src="images/education.jpg" 
+                    alt="Department of Education Logo" class="banner-logo" width="100" height="100" 
+                    style="float: right; max-width: 100px;">
+                </div>  
+
+                <h1 style="text-align: center;">MANDI JUNIOR HIGH SCHOOL</h1>
+
+                <p style="text-align: center;">"Motto: Strive For Success"</p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Navigation -->
+        <nav aria-label="Main navigation">
+
+            <ul class="navigation">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About the School</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact & Registration</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Main -->
+    <main>
+        
+
+        <section class="page-banner">
+
+            <h2>Contact & Student Registration</h2>
+
+            <p>
+                Contact the school or submit a student enquiry.
+            </p>
+
+        </section>
+
+
+        <!-- Contact Information -->
+        <section class="content-section">
+
+            <h2>Contact Information</h2>
+
+            <address>
+
+                Mandi Junior High School<br>
+
+                Papua New Guinea<br>
+
+                Phone:
+                <a href="tel:+67500000000">
+                    +675 7267 1577
+                </a>
+                <br>
+
+                Email:
+                <a href="mailto:info@mandijuniorhigh.edu.pg">
+                    info@mandijuniorhigh.edu.pg
+                </a>
+
+            </address>
+
+        </section>
+
+
+        <!-- Form -->
+        <section class="content-section">
+
+            <h2>Student Enquiry / Registration Form</h2>
+
+            <p>
+                Please complete the form below. Fields marked with
+                an asterisk (*) are required.
+            </p>
+
+
+            <form action="#" method="post">
+
+                <!-- Student Information -->
+                <fieldset>
+
+                    <legend>Student Information</legend>
+
+
+                    <div class="form-group">
+
+                        <label for="student-name">
+                            Student Full Name *
+                        </label>
+
+                        <input
+                            type="text"
+                            id="student-name"
+                            name="student_name"
+                            placeholder="Enter student's full name"
+                            required
+                            minlength="3"
+                            maxlength="100">
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="date-of-birth">
+                            Date of Birth *
+                        </label>
+
+                        <input
+                            type="date"
+                            id="date-of-birth"
+                            name="date_of_birth"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <p>Gender *</p>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="gender"
+                                value="male"
+                                required>
+                            Male
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="gender"
+                                value="female">
+                            Female
+                        </label>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="grade">
+                            Grade Applying For *
+                        </label>
+
+                        <select
+                            id="grade"
+                            name="grade"
+                            required>
+
+                            <option value="">
+                                -- Select Grade --
+                            </option>
+
+                            <option value="7">
+                                Grade 7
+                            </option>
+
+                            <option value="8">
+                                Grade 8
+                            </option>
+
+                            <option value="9">
+                                Grade 9
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </fieldset>
+
+
+                <!-- Parent/Guardian -->
+                <fieldset>
+
+                    <legend>Parent or Guardian Information</legend>
+
+
+                    <div class="form-group">
+
+                        <label for="guardian-name">
+                            Parent/Guardian Full Name *
+                        </label>
+
+                        <input
+                            type="text"
+                            id="guardian-name"
+                            name="guardian_name"
+                            placeholder="Enter parent or guardian name"
+                            required
+                            minlength="3"
+                            maxlength="100">
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address *
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="example@email.com"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="phone">
+                            Telephone Number *
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="+675 0000 0000"
+                            pattern="[0-9+ ()-]{7,20}"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="relationship">
+                            Relationship to Student *
+                        </label>
+
+                        <select
+                            id="relationship"
+                            name="relationship"
+                            required>
+
+                            <option value="">
+                                -- Select Relationship --
+                            </option>
+
+                            <option value="parent">
+                                Parent
+                            </option>
+
+                            <option value="guardian">
+                                Guardian
+                            </option>
+
+                            <option value="other">
+                                Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </fieldset>
+
+
+                <!-- Enquiry -->
+                <fieldset>
+
+                    <legend>Enquiry Details</legend>
+
+
+                    <div class="form-group">
+
+                        <p>
+                            What information are you interested in?
+                        </p>
+
+
+                        <label>
+
+                            <input
+                                type="checkbox"
+                                name="information"
+                                value="registration">
+
+                            Student Registration
+
+                        </label>
+
+
+                        <label>
+
+                            <input
+                                type="checkbox"
+                                name="information"
+                                value="school-information">
+
+                            School Information
+
+                        </label>
+
+
+                        <label>
+
+                            <input
+                                type="checkbox"
+                                name="information"
+                                value="activities">
+
+                            School Activities
+
+                        </label>
+
+
+                        <label>
+
+                            <input
+                                type="checkbox"
+                                name="information"
+                                value="other">
+
+                            Other
+
+                        </label>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message / Enquiry *
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="7"
+                            placeholder="Write your enquiry here..."
+                            required
+                            minlength="10"
+                            maxlength="1000"></textarea>
+
+                    </div>
+
+                </fieldset>
+
+
+                <!-- Consent -->
+                <fieldset>
+
+                    <legend>Confirmation</legend>
+
+
+                    <div class="form-group">
+
+                        <label>
+
+                            <input
+                                type="checkbox"
+                                name="confirmation"
+                                value="confirmed"
+                                required>
+
+                            I confirm that the information provided
+                            is correct. *
+
+                        </label>
+
+                    </div>
+
+                </fieldset>
+
+
+                <!-- Buttons -->
+                <div class="form-buttons">
+
+                    <button
+                        type="submit"
+                        class="button">
+
+                        Submit Enquiry
+
+                    </button>
+
+
+                    <button
+                        type="reset"
+                        class="reset-button">
+
+                        Clear Form
+
+                    </button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+
+        <!-- Additional Information -->
+        <section class="notice">
+
+            <h2>Important Notice</h2>
+
+            <p>
+                Submitting this form is an enquiry and does not
+                automatically confirm student enrolment. The school
+                may contact the parent or guardian for additional
+                information where required.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <p>
+            &copy; 2026 Mandi Junior High School, 
+            Turubu LLG, Wewak District,  ESP,  
+            Papua New Guinea.
+
+        <p>
+
+            <a href="index.html">Home</a> |
+
+            <a href="about.html">About</a> |
+
+            <a href="contact.html">Contact</a>
+
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

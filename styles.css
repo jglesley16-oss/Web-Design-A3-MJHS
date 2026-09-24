@@ -1,0 +1,372 @@
+/* =========================================
+   MANDI JUNIOR HIGH SCHOOL
+   BASIC CSS - ISO229 ASSESSMENT 2
+   ========================================= */
+
+/* General Page */
+body {
+    margin: 0;
+    font-family: Times New Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    line-height: 1.6;
+
+    background-color: rgb(5, 43, 65);
+    width:100%;
+    height:auto;
+}
+
+
+/* Header */
+.site-header {
+    background-color: rgba(3, 37, 58, 0.897);
+    color: rgb(245, 243, 243);
+    padding: 1px;
+  border-radius: 40px;
+    margin: 25px auto;
+     width:100%;
+    height:auto;
+}
+
+.logo-container {
+display: flex;
+justify-content: space-between;
+}
+.text-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+/* School Branding */
+.school-brand {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+.school-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+
+.school-brand h1 {
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+
+.school-brand p {
+    margin: 5px 0 0;
+    font-size: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+
+/* Navigation */
+.navigation {
+    list-style: none;
+    font-size: 21px;
+    padding: 0;
+    margin: 20px auto 0;
+    max-width: 1100px;
+     text-align: center;
+}
+
+
+.navigation li {
+    display: inline-block;
+    margin-right: 15px;
+   
+}
+
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+   
+}
+
+
+.navigation a:hover,
+.navigation a:focus {
+    background-color: #f4c430;
+    color: #111;
+}
+
+
+/* Hero */
+.hero {
+    background-color: rgb(218, 240, 221);
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+
+.hero-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.hero h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+
+/* Page Banner */
+.page-banner {
+   
+    padding: 6px 3px;
+    text-align: center;
+    background-color: rgb(218, 240, 221);
+    border-radius: 80px;
+    border-style: outset;
+    
+}
+
+
+.page-banner h2 {
+    margin: 0;
+    font-size: 32px;
+}
+
+
+/* Content */
+.content-section {
+    background-color: white;
+    max-width: 1100px;
+    margin: 25px auto;
+    padding: 30px;
+}
+
+
+.content-section h2 {
+    color: #064e3b;
+}
+
+
+.content-section h3 {
+    color: #065f46;
+}
+
+
+/* Feature Boxes */
+.feature-container {
+    display: flex;
+    gap: 10px;
+}
+
+
+.feature-box {
+    flex: 1;
+    background-color: #f0fdf4;
+    border: 1px solid #b7d7c5;
+    padding: 10px;
+}
+
+
+/* Images */
+figure {
+    margin: 0;
+    text-align: center;
+  
+}
+
+
+figure img {
+    max-width: 100%;
+    height: auto;
+ 
+}
+
+
+figcaption {
+    font-style: italic;
+    margin-top: 8px;
+}
+
+
+/* Lists */
+li {
+    margin-bottom: 10px;
+}
+
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: left;
+}
+
+
+th {
+    background-color: #064e3b;
+    color: white;
+}
+
+
+/* Forms */
+form {
+    max-width: 850px;
+    margin: auto;
+}
+
+
+fieldset {
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 1px solid #aaa;
+}
+
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #064e3b;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #777;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+
+.form-group label:has(input[type="radio"]),
+.form-group label:has(input[type="checkbox"]) {
+    font-weight: normal;
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+/* Buttons */
+.button,
+.reset-button {
+    display: inline-block;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+.button {
+    background-color: #064e3b;
+    color: white;
+}
+
+
+.button:hover,
+.button:focus {
+    background-color: #f4c430;
+    color: #111;
+}
+
+
+.reset-button {
+    background-color: #ddd;
+    color: #111;
+}
+
+
+.reset-button:hover,
+.reset-button:focus {
+    background-color: #bbb;
+}
+
+
+/* Notice */
+.notice {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #fff7d6;
+    border-left: 6px solid #f4c430;
+}
+
+
+/* Footer */
+.site-footer {
+    background-color: rgb(48, 107, 104);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+
+.site-footer a {
+    color: white;
+}
+
+
+.site-footer a:hover,
+.site-footer a:focus {
+    color: #f4c430;
+}
+
+
+/* Keyboard Focus */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 3px solid #f4c430;
+    outline-offset: 2px;
+}
